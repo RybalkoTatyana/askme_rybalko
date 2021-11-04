@@ -1,0 +1,57 @@
+{% extends "incl/baseAut.html" %}
+{% load static %}
+
+{% block content %}
+
+     <span class="text2"><big><big><big>Settings: Tatyana.R</big></big></big></span>
+<hr>
+    <form action="/action_page.php">
+
+  <div class="row" type="text">
+    <div class="col-25">
+      <label for="fname">Login</label>
+    </div>
+    <div class="col-75">
+      <input id="fname" name="firstname" placeholder="Student.tanya" style="width:30%; padding: 2px;" maxlenght="10";>
+    </div>
+  </div>
+    <br>
+
+         <div class="row" type="text">
+    <div class="col-25">
+      <label for="fname">Email</label>
+    </div>
+    <div class="col-75">
+      <input id="fname" name="firstname" placeholder="Student@amail.ru" style="width:30%; padding: 2px;">
+    </div>
+  </div>
+     <br>
+
+     <div class="row" type="text">
+    <div class="col-25">
+      <label for="fname">NickName</label>
+    </div>
+    <div class="col-75">
+      <input id="fname" name="firstname" placeholder="Tatyana.R" style="width:30%; padding: 2px;">
+    </div>
+  </div>
+ <br>
+       <div class="row" type="text">
+    <div class="col-25">
+      <label for="fname">Upload avatar</label>
+    </div>
+    <div class="col-75">
+      <img class=animation src="{% static "img/dragon.jpg" %}" alt="">
+        <br>
+        <div class="NameOfAvatar">
+            c:/avatar.jpg
+        </div>
+      <button type="button" class="btn btn-outline-dark me-2 " >Choose</button>
+    </div>
+  </div>
+  </form>
+<hr>
+<br>
+ <button type="button" class="btn btn-outline-dark me-2">Save</button>
+
+{% endblock content %}

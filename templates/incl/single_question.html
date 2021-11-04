@@ -1,0 +1,24 @@
+      {% load static %}
+       <div class="row questions">
+        <div class="col-2">
+         <img class=animation src="{% static "img/dragon.jpg" %}" alt="">
+          <div class="class-0">
+               <button type="button" class="btn btn-outline-primary me-2"> 5 &#128151;</button>
+            </div>
+        </div>
+       <div class="col-10">
+         <h2><a href="{% url 'question' %}">{{ question.title }}</a></h2>
+         <big>{{ question.text}}
+         </big>
+           <div class="row">
+               <div class="col-1 texting" >
+                   <a href="{% url 'question' %}">answers</a>
+               </div>
+               <div class="col-1 texting">
+                   tags:
+                   <a href="{% url 'tags' %}">dragons </a>
+                   <a href="{% url 'tags' %}">furii </a>
+               </div>
+           </div>
+       </div>
+       </div>

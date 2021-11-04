@@ -1,0 +1,209 @@
+main > .container {
+    padding: 30px 25px 0;
+    margin-top: 40px;
+    max-width: 90%;
+}
+.questions{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.animation{
+
+    padding: 2px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.animation2{
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.class-0{
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+.class-1{
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+.texting{
+    margin: 20px;
+    padding: 2px;
+    width: 200px;
+}
+.text1{
+    color:black;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top:15px;
+}
+.text2{
+    padding-right: 50px;
+
+}
+.tegs1{
+    color: red;
+    letter-spacing: 3px;
+    line-height: 50px;
+    padding: 5px;
+}
+.tegs2{
+    color: black;
+    letter-spacing: 0px;
+    line-height: 50px;
+    padding: 5px;
+}
+.tegs3{
+    color: green;
+    letter-spacing: 0px;
+    text-decoration: underline;
+    line-height: 50px;
+    padding: 5px;
+}
+.tegs4{
+    color: orange;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding: 5px;
+}
+ul.a {
+   list-style-type: square;
+   text-decoration:underline;
+    color:cornflowerblue;
+}
+.HeadStrike{
+margin-left: 10px;
+    width:1500px;
+}
+.NameofSite{
+    color:white;
+    margin-left: 20px;
+    width:300px;
+}
+.PoiskStrike{
+    width: 200px;
+}
+.Avtorization{
+    width: 200px;
+}
+.Answer {
+    border-radius: 3px;
+    border: 1px solid lightslategrey;
+    text-indent: 10px;
+    padding:2px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-size: 20px;
+    resize: none;
+
+
+
+}
+.Answer2 {
+    border-radius: 3px;
+    border: 1px solid lightslategrey;
+    text-indent: 10px;
+    padding:2px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-size: 20px;
+    resize: none;
+    width: 700px;
+    height: 200px;
+
+}
+.tableType{
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+ /* padding: 20px; */
+}
+
+.col-25 {
+  float: left;
+  width: 15%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.hidden{
+   /*display:none;*/
+    color:red;
+}
+.NameOfAvatar{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid lightslategrey;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 15%;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

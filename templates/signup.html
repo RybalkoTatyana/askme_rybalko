@@ -1,0 +1,77 @@
+{% extends "incl/base.html" %}
+{% load static %}
+
+{% block content %}
+
+         <span class="text2"><big><big><big>Registration</big></big></big></span>
+<hr>
+
+         <div class="hidden">Sorry,wrong password</div>
+         <div class="hidden">Sorry,this email address already registred </div>
+
+ <form action="/action_page.php">
+
+  <div class="row" type="text">
+    <div class="col-25">
+      <label for="fname">Login</label>
+    </div>
+    <div class="col-75">
+      <input id="fname" name="firstname" placeholder="" style="width:30%; padding: 2px;">
+    </div>
+  </div>
+    <br>
+
+         <div class="row" type="text">
+    <div class="col-25">
+      <label for="fname">Email</label>
+    </div>
+    <div class="col-75">
+      <input id="fname" name="firstname" placeholder="" style="width:30%; padding: 2px;">
+    </div>
+  </div>
+     <br>
+
+     <div class="row" type="text">
+    <div class="col-25">
+      <label for="fname">NickName</label>
+    </div>
+    <div class="col-75">
+      <input id="fname" name="firstname" placeholder="" style="width:30%; padding: 2px;">
+    </div>
+  </div>
+ <br>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Password</label>
+    </div>
+    <div class="col-75">
+      <input type="password" id="lname" name="lastname" placeholder="" style="width:30%; padding: 2px;">
+    </div>
+  </div>
+     <br>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Repeat password</label>
+    </div>
+    <div class="col-75">
+      <input type="password" id="lname" name="lastname" placeholder="" style="width:30%; padding: 2px;">
+    </div>
+  </div>
+     <br>
+
+       <div class="row" type="text">
+    <div class="col-25">
+      <label for="fname">Upload avatar</label>
+    </div>
+    <div class="col-75">
+      <input id="fname" name="firstname" placeholder="" style="width:15%; padding: 2px;">
+      <button type="button" class="btn btn-outline-dark me-2" >Choose</button>
+    </div>
+  </div>
+  </form>
+<hr>
+<br>
+ <button type="button" class="btn btn-outline-dark me-2">Register</button>
+{% endblock content %}

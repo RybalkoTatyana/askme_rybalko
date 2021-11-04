@@ -1,0 +1,38 @@
+{% extends "incl/base.html" %}
+{% load static %}
+
+{% block content %}
+ <span class="text2"><big><big><big>Log In</big></big></big></span>
+<hr>
+
+<div class="hidden">Sorry,wrong password</div>
+
+ <form action="/action_page.php">
+  <div class="row" type="text">
+    <div class="col-25">
+      <label for="fname">Login</label>
+    </div>
+    <div class="col-75">
+      <input id="fname" name="firstname" placeholder="" style="width:30%; padding: 2px;">
+    </div>
+  </div>
+
+<br>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Password</label>
+    </div>
+    <div class="col-75">
+      <input type="password" id="lname" name="lastname" placeholder="" style="width:30%; padding: 2px;">
+    </div>
+  </div>
+
+  </form>
+
+<hr>
+<br>
+         <a href="https://www.answers.com">Create new account</a>
+         <br>
+         <br>
+ <button type="button" class="btn btn-outline-dark me-2">Login</button>
+{% endblock content %}
