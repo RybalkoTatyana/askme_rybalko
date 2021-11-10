@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4baa0beb-6838-4ee0-a219-aea43f1fd848" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/askme/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/askme/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +72,7 @@
       <workItem from="1636544843010" duration="1098000" />
       <workItem from="1636570665430" duration="27000" />
       <workItem from="1636570776751" duration="139000" />
+      <workItem from="1636576714079" duration="536000" />
     </task>
     <servers />
   </component>
