@@ -4,8 +4,8 @@
 {% block content %}
          <span class="text2"><big><big><big>Hot Questions</big></big></big></span>
 
-    {% for question in questions %}
+    {% for question in page %}
       {% include "incl/single_question.html" %}
     {% endfor %}
-{% include "incl/pagination.html" %}
+ {% include "incl/pagination.html" %}
 {% endblock content %}

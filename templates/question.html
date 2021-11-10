@@ -5,10 +5,11 @@
 
 {% include "incl/questionForAnswer.html" %}
     <hr>
-    {% for answers in answers%}
+
+    {% for answer in page %}
       {% include "incl/single_answer.html" %}
     {% endfor %}
-    {% include "incl/paginationAnswer.html" %}
+ {% include "incl/pagination.html" %}
     <form class="row questions"style=" height:100px">
 
   <input type="text" id="fname" name="fname"placeholder="Write your answer.." maxlength="350"; >

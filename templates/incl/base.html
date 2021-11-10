@@ -78,28 +78,14 @@
      </div>
     <div class="col-2">
        <h2>Popular tags</h2>
-        <span class="tegs1">
-            <big><big>MySQL</big></big>
-        </span>
-        <span class="tegs2">
-            <big>Dragons</big>
-        </span>
-        <span class="tegs3">WEB</span>
-        <span class="tegs4">NightFurii</span>
-        <span class="tegs1">
-            <big>Internet</big>
-        </span>
-        <span class="tegs2">
-            <big>Imagine</big>
-        </span>
-        <span class="tegs3">TechnoPark</span>
-        <span class="tegs4">BMSTU</span>
+          {% for tag in popular_tags %}
+                                <a href="#" class="tags4">{{ tag.name }}</a>
+          {% endfor %}
         <h2>Best Members</h2>
         <ul class="a">
-         <big> <li>Pupkin</li>
-          <li>Dr.Hause</li>
-          <li>Queen Victoria</li>
-         </big>
+         {% for member in popular_members %}
+                                    <li><a href="#" class="member">{{ member.name }}</a></li>
+         {% endfor %}
         </ul>
      </div>
 

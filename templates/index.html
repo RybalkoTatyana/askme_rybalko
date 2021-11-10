@@ -6,8 +6,8 @@
          <span><a href="http://127.0.0.1:8000/hot/">Hot Questions</a></span>
 
 
-    {% for question in questions %}
+    {% for question in page %}
       {% include "incl/single_question.html" %}
     {% endfor %}
-{% include "incl/pagination.html" %}
+ {% include "incl/pagination.html" %}
 {% endblock content %}
